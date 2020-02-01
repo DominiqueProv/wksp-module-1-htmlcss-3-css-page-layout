@@ -1,0 +1,21 @@
+body{
+    font-family: 'poppins';
+}
+
+.alert{
+border-radius: 5px;
+padding: 10px 20px;
+width: 500px;
+margin: 20px 0;
+
+}
+
+.alert-primary{
+    background-color: lightskyblue;
+    color: dodgerblue;
+}
+
+.alert-secondary{
+background-color: gold;
+color: black;
+}

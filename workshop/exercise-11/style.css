@@ -1,21 +1,25 @@
 .header {
+  text-align: center;
 
 }
 
 .facts {
+  width: 100%;
+  text-align: left;
+  border: 1px solid lightgrey;
+  padding: 15px;
+  border-spacing: 0;
+  border-radius:5px;
+
 
 }
 
-tr {
-
-}
-
-th {
-
-}
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
 
 td,
 th {
+  padding: 10px;
 
 }
 
@@ -25,26 +29,59 @@ h3 {
 
 /* Using CSS grid */
 .links {
+  display: grid;
+  grid-column-gap: 20px;
+  padding: 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .links > li {
+  list-style-type: none;
 }
 
-/* 
-    Using Flexbox
-    You can comment / uncomment this code using cmd+/
-*/
-
-/* 
-.links {
-
+/* Using Flexbox */
+/* .links {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
 }
 
 .links > li {
-
+  list-style-type: none;
+  flex: 1;
+  margin-right: 20px;
 }
-*/
+
+.links > li:last-child {
+  margin-right: 0;
+} */
 
 .links a {
-
+  text-decoration: none;
+  color: #fff;
+  background-color: dodgerblue;
+  padding: 20px;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
 }
+
+
+
+/* Using Flexbox */
+/* .links {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.links > li {
+    list-style-type: none;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.links > li:last-child {
+    margin-right: 0;
+} */
