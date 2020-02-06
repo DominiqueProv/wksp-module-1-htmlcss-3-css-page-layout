@@ -1,0 +1,38 @@
+body{
+    font-family: 'poppins';
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button{
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-size: 1em;
+    padding: 10px 30px;
+    width: 200px;
+    transition: background-color .2s;
+}
+
+button:hover{
+    background-color: teal;
+    color: white;
+    border:none;
+    border: 1px solid teal;
+
+}
+
+a{
+    text-decoration: none;
+    color: #2949d9;
+    transition: color .5s;
+}
+
+a:hover{
+    color: black;
+}
